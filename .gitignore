@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+catboost_info/
+.DS_Store

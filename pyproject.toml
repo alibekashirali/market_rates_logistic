@@ -1,0 +1,12 @@
+[project]
+name = "smart-logistics-rates"
+version = "0.1.0"
+description = "ETL -> DWH -> ML прототип рыночных ставок грузоперевозок"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+    "integration: требует поднятый PostgreSQL с загруженным источником (docker compose run --rm tests)",
+]
